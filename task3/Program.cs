@@ -57,10 +57,12 @@ void GetNumberArray(string ArrayElement) // заполнение массива,
   ArrayElement += ',';
   string [] NumberArray = ArrayElement.Split(new char [] {','});
   
+   Console.Write ("[");
    for (int i = 0; i < NumberArray.Length-1; i++)
    {
-    Console.Write ($"{NumberArray[i]}, ");
+        Console.Write ($"{NumberArray[i]} ");
    }
+   Console.WriteLine ("]");
  }
 
 
