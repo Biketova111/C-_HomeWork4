@@ -4,11 +4,6 @@
 6, 1, 33 -> [6, 1, 33] */
 
 
-// Console.WriteLine ("Введите числовые элементы массива через запятую: ");
-
-
-using System.Reflection.Metadata.Ecma335;
-using System.Timers;
 
 string GetArrayElements (string message) // проверка правильности ввода
 {
