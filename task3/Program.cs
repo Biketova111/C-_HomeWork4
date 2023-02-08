@@ -49,11 +49,12 @@ string removeSpaces (string ArrayElements) // Удаление пробелов 
             resArrayElemet = resArrayElemet + $"{ArrayElements[i]}";
         }
     }
-    return resArrayElemet += ',';
+    return resArrayElemet;
 } 
 
 void GetNumberArray(string ArrayElement) // заполнение массива, вывод на печать
 {
+  ArrayElement += ',';
   string [] NumberArray = ArrayElement.Split(new char [] {','});
   
    for (int i = 0; i < NumberArray.Length-1; i++)
